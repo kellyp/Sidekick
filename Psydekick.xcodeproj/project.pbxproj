@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A0F79513457630008D53A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79413457630008D53A8 /* UIKit.framework */; };
+		A2A0F79713457630008D53A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79613457630008D53A8 /* Foundation.framework */; };
+		A2A0F79913457630008D53A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79813457630008D53A8 /* CoreGraphics.framework */; };
+		A2A0F79F13457630008D53A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F79D13457630008D53A8 /* InfoPlist.strings */; };
+		A2A0F7A213457630008D53A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7A113457630008D53A8 /* main.m */; };
+		A2A0F7A513457630008D53A8 /* PsydekickAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7A413457630008D53A8 /* PsydekickAppDelegate.m */; };
+		A2A0F7A813457630008D53A8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7A613457630008D53A8 /* MainWindow.xib */; };
+		A2A0F7AB13457630008D53A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7AA13457630008D53A8 /* MainViewController.m */; };
+		A2A0F7AD13457630008D53A8 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7AC13457630008D53A8 /* MainView.xib */; };
+		A2A0F7B013457630008D53A8 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */; };
+		A2A0F7B213457630008D53A8 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7B113457630008D53A8 /* FlipsideView.xib */; };
+		A2A0F7B913457630008D53A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79413457630008D53A8 /* UIKit.framework */; };
+		A2A0F7BA13457630008D53A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79613457630008D53A8 /* Foundation.framework */; };
+		A2A0F7BB13457630008D53A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79813457630008D53A8 /* CoreGraphics.framework */; };
+		A2A0F7C313457630008D53A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7C113457630008D53A8 /* InfoPlist.strings */; };
+		A2A0F7C613457630008D53A8 /* PsydekickTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7C513457630008D53A8 /* PsydekickTests.h */; };
+		A2A0F7C813457630008D53A8 /* PsydekickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7C713457630008D53A8 /* PsydekickTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A0F7BC13457630008D53A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A0F78713457630008D53A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A0F78F13457630008D53A8;
+			remoteInfo = Psydekick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A0F79013457630008D53A8 /* Psydekick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psydekick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A0F79413457630008D53A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2A0F79613457630008D53A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2A0F79813457630008D53A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2A0F79C13457630008D53A8 /* Psydekick-Info.plist */ = {isa = PBXFileReference; path = "Psydekick-Info.plist"; sourceTree = "<group>"; };
+		A2A0F79E13457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2A0F7A013457630008D53A8 /* Psydekick-Prefix.pch */ = {isa = PBXFileReference; path = "Psydekick-Prefix.pch"; sourceTree = "<group>"; };
+		A2A0F7A113457630008D53A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2A0F7A313457630008D53A8 /* PsydekickAppDelegate.h */ = {isa = PBXFileReference; path = PsydekickAppDelegate.h; sourceTree = "<group>"; };
+		A2A0F7A413457630008D53A8 /* PsydekickAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsydekickAppDelegate.m; sourceTree = "<group>"; };
+		A2A0F7A713457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A2A0F7A913457630008D53A8 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		A2A0F7AA13457630008D53A8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A2A0F7AC13457630008D53A8 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		A2A0F7B113457630008D53A8 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		A2A0F7B813457630008D53A8 /* PsydekickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsydekickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A0F7C013457630008D53A8 /* PsydekickTests-Info.plist */ = {isa = PBXFileReference; path = "PsydekickTests-Info.plist"; sourceTree = "<group>"; };
+		A2A0F7C213457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2A0F7C413457630008D53A8 /* PsydekickTests-Prefix.pch */ = {isa = PBXFileReference; path = "PsydekickTests-Prefix.pch"; sourceTree = "<group>"; };
+		A2A0F7C513457630008D53A8 /* PsydekickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsydekickTests.h; sourceTree = "<group>"; };
+		A2A0F7C713457630008D53A8 /* PsydekickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsydekickTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A0F78D13457630008D53A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F79513457630008D53A8 /* UIKit.framework in Frameworks */,
+				A2A0F79713457630008D53A8 /* Foundation.framework in Frameworks */,
+				A2A0F79913457630008D53A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A0F7B413457630008D53A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F7B913457630008D53A8 /* UIKit.framework in Frameworks */,
+				A2A0F7BA13457630008D53A8 /* Foundation.framework in Frameworks */,
+				A2A0F7BB13457630008D53A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A0F78513457630008D53A8 = {
+			isa = PBXGroup;
+			children = (
+				A2A0F79A13457630008D53A8 /* Psydekick */,
+				A2A0F7BE13457630008D53A8 /* PsydekickTests */,
+				A2A0F79313457630008D53A8 /* Frameworks */,
+				A2A0F79113457630008D53A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A0F79113457630008D53A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F79013457630008D53A8 /* Psydekick.app */,
+				A2A0F7B813457630008D53A8 /* PsydekickTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A0F79313457630008D53A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F79413457630008D53A8 /* UIKit.framework */,
+				A2A0F79613457630008D53A8 /* Foundation.framework */,
+				A2A0F79813457630008D53A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A0F79A13457630008D53A8 /* Psydekick */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F7A313457630008D53A8 /* PsydekickAppDelegate.h */,
+				A2A0F7A413457630008D53A8 /* PsydekickAppDelegate.m */,
+				A2A0F7A613457630008D53A8 /* MainWindow.xib */,
+				A2A0F7A913457630008D53A8 /* MainViewController.h */,
+				A2A0F7AA13457630008D53A8 /* MainViewController.m */,
+				A2A0F7AC13457630008D53A8 /* MainView.xib */,
+				A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */,
+				A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */,
+				A2A0F7B113457630008D53A8 /* FlipsideView.xib */,
+				A2A0F79B13457630008D53A8 /* Supporting Files */,
+			);
+			path = Psydekick;
+			sourceTree = "<group>";
+		};
+		A2A0F79B13457630008D53A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F79C13457630008D53A8 /* Psydekick-Info.plist */,
+				A2A0F79D13457630008D53A8 /* InfoPlist.strings */,
+				A2A0F7A013457630008D53A8 /* Psydekick-Prefix.pch */,
+				A2A0F7A113457630008D53A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2A0F7BE13457630008D53A8 /* PsydekickTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F7C513457630008D53A8 /* PsydekickTests.h */,
+				A2A0F7C713457630008D53A8 /* PsydekickTests.m */,
+				A2A0F7BF13457630008D53A8 /* Supporting Files */,
+			);
+			path = PsydekickTests;
+			sourceTree = "<group>";
+		};
+		A2A0F7BF13457630008D53A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F7C013457630008D53A8 /* PsydekickTests-Info.plist */,
+				A2A0F7C113457630008D53A8 /* InfoPlist.strings */,
+				A2A0F7C413457630008D53A8 /* PsydekickTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A0F78F13457630008D53A8 /* Psydekick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Psydekick" */;
+			buildPhases = (
+				A2A0F78C13457630008D53A8 /* Sources */,
+				A2A0F78D13457630008D53A8 /* Frameworks */,
+				A2A0F78E13457630008D53A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Psydekick;
+			productName = Psydekick;
+			productReference = A2A0F79013457630008D53A8 /* Psydekick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A0F7B713457630008D53A8 /* PsydekickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "PsydekickTests" */;
+			buildPhases = (
+				A2A0F7B313457630008D53A8 /* Sources */,
+				A2A0F7B413457630008D53A8 /* Frameworks */,
+				A2A0F7B513457630008D53A8 /* Resources */,
+				A2A0F7B613457630008D53A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A0F7BD13457630008D53A8 /* PBXTargetDependency */,
+			);
+			name = PsydekickTests;
+			productName = PsydekickTests;
+			productReference = A2A0F7B813457630008D53A8 /* PsydekickTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A0F78713457630008D53A8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Psydekick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2A0F78513457630008D53A8;
+			productRefGroup = A2A0F79113457630008D53A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A0F78F13457630008D53A8 /* Psydekick */,
+				A2A0F7B713457630008D53A8 /* PsydekickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A0F78E13457630008D53A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F79F13457630008D53A8 /* InfoPlist.strings in Resources */,
+				A2A0F7A813457630008D53A8 /* MainWindow.xib in Resources */,
+				A2A0F7AD13457630008D53A8 /* MainView.xib in Resources */,
+				A2A0F7B213457630008D53A8 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A0F7B513457630008D53A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F7C313457630008D53A8 /* InfoPlist.strings in Resources */,
+				A2A0F7C613457630008D53A8 /* PsydekickTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2A0F7B613457630008D53A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A0F78C13457630008D53A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F7A213457630008D53A8 /* main.m in Sources */,
+				A2A0F7A513457630008D53A8 /* PsydekickAppDelegate.m in Sources */,
+				A2A0F7AB13457630008D53A8 /* MainViewController.m in Sources */,
+				A2A0F7B013457630008D53A8 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A0F7B313457630008D53A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A0F7C813457630008D53A8 /* PsydekickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A0F7BD13457630008D53A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A0F78F13457630008D53A8 /* Psydekick */;
+			targetProxy = A2A0F7BC13457630008D53A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A0F79D13457630008D53A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A0F79E13457630008D53A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2A0F7A613457630008D53A8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A0F7A713457630008D53A8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A2A0F7C113457630008D53A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A0F7C213457630008D53A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A0F7C913457630008D53A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2A0F7CA13457630008D53A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A2A0F7CC13457630008D53A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Psydekick/Psydekick-Prefix.pch";
+				INFOPLIST_FILE = "Psydekick/Psydekick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2A0F7CD13457630008D53A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Psydekick/Psydekick-Prefix.pch";
+				INFOPLIST_FILE = "Psydekick/Psydekick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2A0F7CF13457630008D53A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Psydekick.app/Psydekick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsydekickTests/PsydekickTests-Prefix.pch";
+				INFOPLIST_FILE = "PsydekickTests/PsydekickTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2A0F7D013457630008D53A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Psydekick.app/Psydekick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsydekickTests/PsydekickTests-Prefix.pch";
+				INFOPLIST_FILE = "PsydekickTests/PsydekickTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Psydekick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A0F7C913457630008D53A8 /* Debug */,
+				A2A0F7CA13457630008D53A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Psydekick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A0F7CC13457630008D53A8 /* Debug */,
+				A2A0F7CD13457630008D53A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "PsydekickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A0F7CF13457630008D53A8 /* Debug */,
+				A2A0F7D013457630008D53A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A0F78713457630008D53A8 /* Project object */;
+}
