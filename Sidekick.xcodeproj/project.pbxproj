@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22D9B45134ACEE100708142 /* PKBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B40134ACEE100708142 /* PKBackgroundImage.png */; };
+		A22D9B46134ACEE100708142 /* PKBamImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B41134ACEE100708142 /* PKBamImage.png */; };
+		A22D9B47134ACEE100708142 /* PKBlamImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B42134ACEE100708142 /* PKBlamImage.png */; };
+		A22D9B48134ACEE100708142 /* PKBoomImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B43134ACEE100708142 /* PKBoomImage.png */; };
+		A22D9B49134ACEE100708142 /* PKClangImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B44134ACEE100708142 /* PKClangImage.png */; };
+		A22D9B4C134AD30D00708142 /* Comic_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B4B134AD30D00708142 /* Comic_Book.ttf */; };
+		A22D9B521350EDAB00708142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D9B511350EDAB00708142 /* Default.png */; };
+		A22D9B5913510B9800708142 /* PKContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D9B5813510B9700708142 /* PKContainerView.m */; };
+		A238545D1353FBD7002D8188 /* PKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A238545C1353FBD7002D8188 /* PKTableViewController.m */; };
+		A25518B11346E31E003E9C0B /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = A25518B01346E31E003E9C0B /* data.txt */; };
+		A25518B31347C9A7003E9C0B /* PKBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518B21347C9A7003E9C0B /* PKBackground.png */; };
+		A25518B51347CA6C003E9C0B /* PKButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518B41347CA6C003E9C0B /* PKButtonImage.png */; };
+		A25518B71347D021003E9C0B /* PKHeadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518B61347D021003E9C0B /* PKHeadImage.png */; };
+		A25518BD1348D578003E9C0B /* PKIcon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518BA1348D578003E9C0B /* PKIcon-512.png */; };
+		A25518BF1348D590003E9C0B /* PKIcon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518BE1348D590003E9C0B /* PKIcon-57.png */; };
+		A25518C11348D5B7003E9C0B /* PKIcon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = A25518C01348D5B7003E9C0B /* PKIcon-114.png */; };
+		A27CE1B413580F0D004A59CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A27CE1B313580F0D004A59CF /* Default@2x.png */; };
 		A2A0F79513457630008D53A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79413457630008D53A8 /* UIKit.framework */; };
 		A2A0F79713457630008D53A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79613457630008D53A8 /* Foundation.framework */; };
 		A2A0F79913457630008D53A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0F79813457630008D53A8 /* CoreGraphics.framework */; };
@@ -24,6 +41,10 @@
 		A2A0F7C313457630008D53A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7C113457630008D53A8 /* InfoPlist.strings */; };
 		A2A0F7C613457630008D53A8 /* PsydekickTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A2A0F7C513457630008D53A8 /* PsydekickTests.h */; };
 		A2A0F7C813457630008D53A8 /* PsydekickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7C713457630008D53A8 /* PsydekickTests.m */; };
+		A2A0F7D613457D6B008D53A8 /* PKNameDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7D513457D6B008D53A8 /* PKNameDataSource.m */; };
+		A2A0F7D9134582E2008D53A8 /* PKNameDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A0F7D8134582E1008D53A8 /* PKNameDelegate.m */; };
+		A2A24E3D1348F22900E5F746 /* VTC ScreamItLoud Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A24E3C1348F22900E5F746 /* VTC ScreamItLoud Regular.ttf */; };
+		A2B0F0781353EE8100437768 /* PKShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B0F0771353EE8100437768 /* PKShadow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,29 +58,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2A0F79013457630008D53A8 /* Psydekick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psydekick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22D9B40134ACEE100708142 /* PKBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBackgroundImage.png; sourceTree = "<group>"; };
+		A22D9B41134ACEE100708142 /* PKBamImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBamImage.png; sourceTree = "<group>"; };
+		A22D9B42134ACEE100708142 /* PKBlamImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBlamImage.png; sourceTree = "<group>"; };
+		A22D9B43134ACEE100708142 /* PKBoomImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBoomImage.png; sourceTree = "<group>"; };
+		A22D9B44134ACEE100708142 /* PKClangImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKClangImage.png; sourceTree = "<group>"; };
+		A22D9B4B134AD30D00708142 /* Comic_Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comic_Book.ttf; sourceTree = "<group>"; };
+		A22D9B511350EDAB00708142 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A22D9B5713510B9700708142 /* PKContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKContainerView.h; sourceTree = "<group>"; };
+		A22D9B5813510B9700708142 /* PKContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKContainerView.m; sourceTree = "<group>"; };
+		A238545B1353FBD7002D8188 /* PKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewController.h; sourceTree = "<group>"; };
+		A238545C1353FBD7002D8188 /* PKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewController.m; sourceTree = "<group>"; };
+		A25518B01346E31E003E9C0B /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		A25518B21347C9A7003E9C0B /* PKBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBackground.png; sourceTree = "<group>"; };
+		A25518B41347CA6C003E9C0B /* PKButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKButtonImage.png; sourceTree = "<group>"; };
+		A25518B61347D021003E9C0B /* PKHeadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKHeadImage.png; sourceTree = "<group>"; };
+		A25518BA1348D578003E9C0B /* PKIcon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PKIcon-512.png"; sourceTree = "<group>"; };
+		A25518BE1348D590003E9C0B /* PKIcon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PKIcon-57.png"; path = "../PKIcon-57.png"; sourceTree = "<group>"; };
+		A25518C01348D5B7003E9C0B /* PKIcon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PKIcon-114.png"; path = "../PKIcon-114.png"; sourceTree = "<group>"; };
+		A27CE1B313580F0D004A59CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2A0F79013457630008D53A8 /* Sidekick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidekick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A0F79413457630008D53A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A2A0F79613457630008D53A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2A0F79813457630008D53A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A2A0F79C13457630008D53A8 /* Psydekick-Info.plist */ = {isa = PBXFileReference; path = "Psydekick-Info.plist"; sourceTree = "<group>"; };
+		A2A0F79C13457630008D53A8 /* Sidekick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sidekick-Info.plist"; sourceTree = "<group>"; };
 		A2A0F79E13457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A2A0F7A013457630008D53A8 /* Psydekick-Prefix.pch */ = {isa = PBXFileReference; path = "Psydekick-Prefix.pch"; sourceTree = "<group>"; };
+		A2A0F7A013457630008D53A8 /* Sidekick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sidekick-Prefix.pch"; sourceTree = "<group>"; };
 		A2A0F7A113457630008D53A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2A0F7A313457630008D53A8 /* PsydekickAppDelegate.h */ = {isa = PBXFileReference; path = PsydekickAppDelegate.h; sourceTree = "<group>"; };
+		A2A0F7A313457630008D53A8 /* PsydekickAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsydekickAppDelegate.h; sourceTree = "<group>"; };
 		A2A0F7A413457630008D53A8 /* PsydekickAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsydekickAppDelegate.m; sourceTree = "<group>"; };
 		A2A0F7A713457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A2A0F7A913457630008D53A8 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		A2A0F7A913457630008D53A8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A2A0F7AA13457630008D53A8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A2A0F7AC13457630008D53A8 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		A2A0F7B113457630008D53A8 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
-		A2A0F7B813457630008D53A8 /* PsydekickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsydekickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A0F7C013457630008D53A8 /* PsydekickTests-Info.plist */ = {isa = PBXFileReference; path = "PsydekickTests-Info.plist"; sourceTree = "<group>"; };
+		A2A0F7B813457630008D53A8 /* SidekickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidekickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A0F7C013457630008D53A8 /* SidekickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SidekickTests-Info.plist"; sourceTree = "<group>"; };
 		A2A0F7C213457630008D53A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A2A0F7C413457630008D53A8 /* PsydekickTests-Prefix.pch */ = {isa = PBXFileReference; path = "PsydekickTests-Prefix.pch"; sourceTree = "<group>"; };
+		A2A0F7C413457630008D53A8 /* SidekickTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidekickTests-Prefix.pch"; sourceTree = "<group>"; };
 		A2A0F7C513457630008D53A8 /* PsydekickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsydekickTests.h; sourceTree = "<group>"; };
 		A2A0F7C713457630008D53A8 /* PsydekickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsydekickTests.m; sourceTree = "<group>"; };
+		A2A0F7D413457D6A008D53A8 /* PKNameDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKNameDataSource.h; sourceTree = "<group>"; };
+		A2A0F7D513457D6B008D53A8 /* PKNameDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKNameDataSource.m; sourceTree = "<group>"; };
+		A2A0F7D7134582E1008D53A8 /* PKNameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKNameDelegate.h; sourceTree = "<group>"; };
+		A2A0F7D8134582E1008D53A8 /* PKNameDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKNameDelegate.m; sourceTree = "<group>"; };
+		A2A24E3C1348F22900E5F746 /* VTC ScreamItLoud Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VTC ScreamItLoud Regular.ttf"; sourceTree = "<group>"; };
+		A2B0F0771353EE8100437768 /* PKShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKShadow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +132,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A238545F1353FBF5002D8188 /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */,
+				A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */,
+				A2A0F7B113457630008D53A8 /* FlipsideView.xib */,
+			);
+			name = Trash;
+			sourceTree = "<group>";
+		};
+		A25518AE1346E2F4003E9C0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0F0771353EE8100437768 /* PKShadow.png */,
+				A25518B41347CA6C003E9C0B /* PKButtonImage.png */,
+				A22D9B4B134AD30D00708142 /* Comic_Book.ttf */,
+				A22D9B40134ACEE100708142 /* PKBackgroundImage.png */,
+				A22D9B41134ACEE100708142 /* PKBamImage.png */,
+				A22D9B42134ACEE100708142 /* PKBlamImage.png */,
+				A22D9B43134ACEE100708142 /* PKBoomImage.png */,
+				A22D9B44134ACEE100708142 /* PKClangImage.png */,
+				A2A24E3C1348F22900E5F746 /* VTC ScreamItLoud Regular.ttf */,
+				A25518C01348D5B7003E9C0B /* PKIcon-114.png */,
+				A25518BE1348D590003E9C0B /* PKIcon-57.png */,
+				A25518BA1348D578003E9C0B /* PKIcon-512.png */,
+				A25518B61347D021003E9C0B /* PKHeadImage.png */,
+				A25518B21347C9A7003E9C0B /* PKBackground.png */,
+				A25518B01346E31E003E9C0B /* data.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		A2A0F78513457630008D53A8 = {
 			isa = PBXGroup;
 			children = (
+				A27CE1B313580F0D004A59CF /* Default@2x.png */,
+				A22D9B511350EDAB00708142 /* Default.png */,
 				A2A0F79A13457630008D53A8 /* Psydekick */,
 				A2A0F7BE13457630008D53A8 /* PsydekickTests */,
 				A2A0F79313457630008D53A8 /* Frameworks */,
@@ -99,8 +179,8 @@
 		A2A0F79113457630008D53A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2A0F79013457630008D53A8 /* Psydekick.app */,
-				A2A0F7B813457630008D53A8 /* PsydekickTests.octest */,
+				A2A0F79013457630008D53A8 /* Sidekick.app */,
+				A2A0F7B813457630008D53A8 /* SidekickTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,16 +198,23 @@
 		A2A0F79A13457630008D53A8 /* Psydekick */ = {
 			isa = PBXGroup;
 			children = (
+				A238545F1353FBF5002D8188 /* Trash */,
+				A25518AE1346E2F4003E9C0B /* Resources */,
 				A2A0F7A313457630008D53A8 /* PsydekickAppDelegate.h */,
 				A2A0F7A413457630008D53A8 /* PsydekickAppDelegate.m */,
 				A2A0F7A613457630008D53A8 /* MainWindow.xib */,
 				A2A0F7A913457630008D53A8 /* MainViewController.h */,
 				A2A0F7AA13457630008D53A8 /* MainViewController.m */,
 				A2A0F7AC13457630008D53A8 /* MainView.xib */,
-				A2A0F7AE13457630008D53A8 /* FlipsideViewController.h */,
-				A2A0F7AF13457630008D53A8 /* FlipsideViewController.m */,
-				A2A0F7B113457630008D53A8 /* FlipsideView.xib */,
 				A2A0F79B13457630008D53A8 /* Supporting Files */,
+				A2A0F7D413457D6A008D53A8 /* PKNameDataSource.h */,
+				A2A0F7D513457D6B008D53A8 /* PKNameDataSource.m */,
+				A2A0F7D7134582E1008D53A8 /* PKNameDelegate.h */,
+				A2A0F7D8134582E1008D53A8 /* PKNameDelegate.m */,
+				A22D9B5713510B9700708142 /* PKContainerView.h */,
+				A22D9B5813510B9700708142 /* PKContainerView.m */,
+				A238545B1353FBD7002D8188 /* PKTableViewController.h */,
+				A238545C1353FBD7002D8188 /* PKTableViewController.m */,
 			);
 			path = Psydekick;
 			sourceTree = "<group>";
@@ -135,9 +222,9 @@
 		A2A0F79B13457630008D53A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2A0F79C13457630008D53A8 /* Psydekick-Info.plist */,
+				A2A0F79C13457630008D53A8 /* Sidekick-Info.plist */,
 				A2A0F79D13457630008D53A8 /* InfoPlist.strings */,
-				A2A0F7A013457630008D53A8 /* Psydekick-Prefix.pch */,
+				A2A0F7A013457630008D53A8 /* Sidekick-Prefix.pch */,
 				A2A0F7A113457630008D53A8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,9 +243,9 @@
 		A2A0F7BF13457630008D53A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2A0F7C013457630008D53A8 /* PsydekickTests-Info.plist */,
+				A2A0F7C013457630008D53A8 /* SidekickTests-Info.plist */,
 				A2A0F7C113457630008D53A8 /* InfoPlist.strings */,
-				A2A0F7C413457630008D53A8 /* PsydekickTests-Prefix.pch */,
+				A2A0F7C413457630008D53A8 /* SidekickTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2A0F78F13457630008D53A8 /* Psydekick */ = {
+		A2A0F78F13457630008D53A8 /* Sidekick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Psydekick" */;
+			buildConfigurationList = A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Sidekick" */;
 			buildPhases = (
 				A2A0F78C13457630008D53A8 /* Sources */,
 				A2A0F78D13457630008D53A8 /* Frameworks */,
@@ -178,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = Psydekick;
+			name = Sidekick;
 			productName = Psydekick;
-			productReference = A2A0F79013457630008D53A8 /* Psydekick.app */;
+			productReference = A2A0F79013457630008D53A8 /* Sidekick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2A0F7B713457630008D53A8 /* PsydekickTests */ = {
+		A2A0F7B713457630008D53A8 /* SidekickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "PsydekickTests" */;
+			buildConfigurationList = A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "SidekickTests" */;
 			buildPhases = (
 				A2A0F7B313457630008D53A8 /* Sources */,
 				A2A0F7B413457630008D53A8 /* Frameworks */,
@@ -197,9 +284,9 @@
 			dependencies = (
 				A2A0F7BD13457630008D53A8 /* PBXTargetDependency */,
 			);
-			name = PsydekickTests;
+			name = SidekickTests;
 			productName = PsydekickTests;
-			productReference = A2A0F7B813457630008D53A8 /* PsydekickTests.octest */;
+			productReference = A2A0F7B813457630008D53A8 /* SidekickTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +294,7 @@
 /* Begin PBXProject section */
 		A2A0F78713457630008D53A8 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Psydekick" */;
+			buildConfigurationList = A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Sidekick" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +306,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2A0F78F13457630008D53A8 /* Psydekick */,
-				A2A0F7B713457630008D53A8 /* PsydekickTests */,
+				A2A0F78F13457630008D53A8 /* Sidekick */,
+				A2A0F7B713457630008D53A8 /* SidekickTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +321,23 @@
 				A2A0F7A813457630008D53A8 /* MainWindow.xib in Resources */,
 				A2A0F7AD13457630008D53A8 /* MainView.xib in Resources */,
 				A2A0F7B213457630008D53A8 /* FlipsideView.xib in Resources */,
+				A25518B11346E31E003E9C0B /* data.txt in Resources */,
+				A25518B31347C9A7003E9C0B /* PKBackground.png in Resources */,
+				A25518B51347CA6C003E9C0B /* PKButtonImage.png in Resources */,
+				A25518B71347D021003E9C0B /* PKHeadImage.png in Resources */,
+				A25518BD1348D578003E9C0B /* PKIcon-512.png in Resources */,
+				A25518BF1348D590003E9C0B /* PKIcon-57.png in Resources */,
+				A25518C11348D5B7003E9C0B /* PKIcon-114.png in Resources */,
+				A2A24E3D1348F22900E5F746 /* VTC ScreamItLoud Regular.ttf in Resources */,
+				A22D9B45134ACEE100708142 /* PKBackgroundImage.png in Resources */,
+				A22D9B46134ACEE100708142 /* PKBamImage.png in Resources */,
+				A22D9B47134ACEE100708142 /* PKBlamImage.png in Resources */,
+				A22D9B48134ACEE100708142 /* PKBoomImage.png in Resources */,
+				A22D9B49134ACEE100708142 /* PKClangImage.png in Resources */,
+				A22D9B4C134AD30D00708142 /* Comic_Book.ttf in Resources */,
+				A22D9B521350EDAB00708142 /* Default.png in Resources */,
+				A2B0F0781353EE8100437768 /* PKShadow.png in Resources */,
+				A27CE1B413580F0D004A59CF /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +377,10 @@
 				A2A0F7A513457630008D53A8 /* PsydekickAppDelegate.m in Sources */,
 				A2A0F7AB13457630008D53A8 /* MainViewController.m in Sources */,
 				A2A0F7B013457630008D53A8 /* FlipsideViewController.m in Sources */,
+				A2A0F7D613457D6B008D53A8 /* PKNameDataSource.m in Sources */,
+				A2A0F7D9134582E2008D53A8 /* PKNameDelegate.m in Sources */,
+				A22D9B5913510B9800708142 /* PKContainerView.m in Sources */,
+				A238545D1353FBD7002D8188 /* PKTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +397,7 @@
 /* Begin PBXTargetDependency section */
 		A2A0F7BD13457630008D53A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2A0F78F13457630008D53A8 /* Psydekick */;
+			target = A2A0F78F13457630008D53A8 /* Sidekick */;
 			targetProxy = A2A0F7BC13457630008D53A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,9 +469,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Psydekick/Psydekick-Prefix.pch";
-				INFOPLIST_FILE = "Psydekick/Psydekick-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Psydekick/Sidekick-Prefix.pch";
+				INFOPLIST_FILE = "Psydekick/Sidekick-Info.plist";
+				PRODUCT_NAME = Sidekick;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,9 +482,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Psydekick/Psydekick-Prefix.pch";
-				INFOPLIST_FILE = "Psydekick/Psydekick-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Psydekick/Sidekick-Prefix.pch";
+				INFOPLIST_FILE = "Psydekick/Sidekick-Info.plist";
+				PRODUCT_NAME = Sidekick;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,13 +500,13 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PsydekickTests/PsydekickTests-Prefix.pch";
-				INFOPLIST_FILE = "PsydekickTests/PsydekickTests-Info.plist";
+				GCC_PREFIX_HEADER = "PsydekickTests/SidekickTests-Prefix.pch";
+				INFOPLIST_FILE = "PsydekickTests/SidekickTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SidekickTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -414,13 +522,13 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PsydekickTests/PsydekickTests-Prefix.pch";
-				INFOPLIST_FILE = "PsydekickTests/PsydekickTests-Info.plist";
+				GCC_PREFIX_HEADER = "PsydekickTests/SidekickTests-Prefix.pch";
+				INFOPLIST_FILE = "PsydekickTests/SidekickTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SidekickTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -429,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Psydekick" */ = {
+		A2A0F78A13457630008D53A8 /* Build configuration list for PBXProject "Sidekick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A0F7C913457630008D53A8 /* Debug */,
@@ -438,21 +546,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Psydekick" */ = {
+		A2A0F7CB13457630008D53A8 /* Build configuration list for PBXNativeTarget "Sidekick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A0F7CC13457630008D53A8 /* Debug */,
 				A2A0F7CD13457630008D53A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "PsydekickTests" */ = {
+		A2A0F7CE13457630008D53A8 /* Build configuration list for PBXNativeTarget "SidekickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A0F7CF13457630008D53A8 /* Debug */,
 				A2A0F7D013457630008D53A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
