@@ -58,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FB6A575165A9365005F2CCB /* pom.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
 		A22D9B40134ACEE100708142 /* PKBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBackgroundImage.png; sourceTree = "<group>"; };
 		A22D9B41134ACEE100708142 /* PKBamImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBamImage.png; sourceTree = "<group>"; };
 		A22D9B42134ACEE100708142 /* PKBlamImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKBlamImage.png; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 		A2A0F78513457630008D53A8 = {
 			isa = PBXGroup;
 			children = (
+				8FB6A575165A9365005F2CCB /* pom.xml */,
 				A27CE1B313580F0D004A59CF /* Default@2x.png */,
 				A22D9B511350EDAB00708142 /* Default.png */,
 				A2A0F79A13457630008D53A8 /* Psydekick */,
