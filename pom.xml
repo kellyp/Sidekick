@@ -42,6 +42,42 @@
                     <repositoryId>maestro-deploy</repositoryId>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>shell-maven-plugin</artifactId>
+                <version>1.0-beta-1</version>
+                <executions>
+                    <execution>
+                        <id>build</id>
+                        <phase>compile</phase>
+                        <goals><goal>shell</goal></goals>
+                        <configuration>
+                            <workDir>${basedir}</workDir>
+                            <chmod>true</chmod>
+                            <keepScriptFile>false</keepScriptFile>
+                            <script>
+                                #!/bin/sh
+                                xcodebuild -target ${project.artifactId} -sdk iphoneos -configuration Release
+                            </script>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>package</id>
+                        <phase>package</phase>
+                        <goals><goal>shell</goal></goals>
+                        <configuration>
+                            <!--workDir>${basedir}</workDir>
+                             <keepScriptFile>false</keepScriptFile-->
+                            <chmod>true</chmod>
+                            <keepScriptFile>false</keepScriptFile>
+                            <script>
+                                #!/bin/sh
+                                #/usr/bin/xcrun -sdk iphoneos PackageApplication -v "${RELEASE_BUILDDIR}/${APPLICATION_NAME}.app" -o "${BUILD_HISTORY_DIR}/${APPLICATION_NAME}.ipa" --sign "${DEVELOPER_NAME}" --embed "${PROVISONING_PROFILE}”
+                            </script>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>            
         </plugins>
     </build>
     <profiles>
